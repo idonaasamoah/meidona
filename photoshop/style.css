@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px) {
+
+    nav.mobile { display: block; } 
+    nav.desktop { display: none; }
+    
+    }
+    
+
+body.{
+    width: 0px;
+    height: 0px;
+padding-left: 50px;
+padding-right: 100px;
+}
+
+.logo { width: 15px;
+    float: left; 
+}
+.logo .img { 
+margin-top: 50px;
+padding-left: 100%;
+}
+
+.menu {
+    width: 1050px;
+    float: left;
+    height: 100px;
+}
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+}
+ul li{ list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px; 
+ 
+}
+ul li a{
+text-decoration: none;
+color: rgb(244, 248, 245);
+font-weight: normal;
+transition: 0.4s ease-in-out;
+
+}
+ul li a :hover{
+    color: rgb(12, 163, 173);
+}
+ul li  :hover{
+    color: rgb(12, 163, 173);
+}
+
+
+
